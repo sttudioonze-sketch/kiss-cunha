@@ -5,38 +5,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Dra. Kiss Cunha | Estética Avançada e Terapias Manuais</title>
   <meta name="description" content="Dra. Kiss Cunha, enfermeira esteta. Harmonização facial e corporal, massagens estéticas e terapêuticas. Atendimento personalizado, ético e comprometido. Agende sua consulta.">
-  <meta name="theme-color" content="#472A37">
+  <meta name="theme-color" content="#121213">
   <meta property="og:title" content="Dra. Kiss Cunha | Estética Avançada">
   <meta property="og:description" content="Harmonização facial e corporal, massagens estéticas e terapêuticas. Agende sua consulta.">
-  <meta property="og:image" content="img/retrato-hero.webp">
+  <meta property="og:image" content="img/v2-fundo.webp">
   <link rel="icon" href="img/logo.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;600;700&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Jost:wght@300;400;500&family=Pinyon+Script&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="img/v2-recorte.webp">
+  <link rel="stylesheet" href="css/site.css">
 </head>
 <body>
 
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
   <symbol id="k" viewBox="0 0 375 375" fill="none" stroke="currentColor">
-    <circle cx="187.5" cy="187.5" r="180" stroke-width="15"/>
-    <path stroke-width="15" d="m64.366 57.382 4.993 267.695M293.082 45.348 69.31 269.856M321.614 67.19 69.313 314.754m121.293-118.767 113.242 129.098"/>
+    <circle cx="187.5" cy="187.5" r="180" stroke-width="12"/>
+    <path stroke-width="12" d="m64.366 57.382 4.993 267.695M293.082 45.348 69.31 269.856M321.614 67.19 69.313 314.754m121.293-118.767 113.242 129.098"/>
   </symbol>
   <symbol id="wa" viewBox="0 0 24 24"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.75-.86-2.02-.96-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.25-.46-2.38-1.47-.88-.78-1.47-1.75-1.64-2.05-.17-.3-.02-.46.13-.6.13-.14.3-.35.44-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.6-.92-2.2-.24-.58-.49-.5-.67-.5h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.08.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.75-.72 2-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35M12.05 21.5h-.01a9.4 9.4 0 0 1-4.8-1.32l-.34-.2-3.57.94.95-3.48-.22-.36A9.4 9.4 0 0 1 2.6 12.05C2.6 6.85 6.84 2.6 12.05 2.6c2.52 0 4.89.99 6.67 2.77a9.37 9.37 0 0 1 2.76 6.68c0 5.2-4.24 9.45-9.43 9.45m8.03-17.48A11.3 11.3 0 0 0 12.05.7C5.8.7.7 5.8.7 12.05c0 2 .52 3.95 1.52 5.67L.6 23.4l5.8-1.52a11.3 11.3 0 0 0 5.64 1.44h.01c6.25 0 11.35-5.1 11.35-11.35 0-3.03-1.18-5.88-3.32-8.03"/></symbol>
+  <symbol id="seta" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M4 12h16m-6-6 6 6-6 6"/></symbol>
+  <symbol id="diag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M7 17 17 7M9 7h8v8"/></symbol>
+  <symbol id="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="12" r="10"/><path d="m7.5 12.2 3 3 6-6.4"/></symbol>
 </svg>
 
-<header class="topo" id="topo">
-  <div class="topo__in">
+<header class="nav" id="nav">
+  <div class="nav__in">
     <a href="#inicio" class="marca" aria-label="Dra. Kiss Cunha, início">
       <svg class="marca__k"><use href="#k"/></svg>
-      <span class="marca__nome">Dra. Kiss Cunha<small>Estética Avançada &amp; Terapias Manuais</small></span>
+      <span class="marca__nome">Dra. Kiss Cunha<small>Estética avançada</small></span>
     </a>
     <nav class="menu" id="menu" aria-label="Principal">
-      <a href="#procedimentos">Procedimentos</a>
+      <a href="#inicio" class="ativo">Início</a>
       <a href="#sobre">Sobre</a>
+      <a href="#procedimentos">Procedimentos</a>
       <a href="#duvidas">Dúvidas</a>
       <a href="#contato">Contato</a>
-      <a class="btn btn--sm" href="#" data-wa>Agendar</a>
+      <a class="btn-linha nav__cta" href="#" data-wa>Agendar <svg><use href="#diag"/></svg></a>
     </nav>
     <button class="menu-btn" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu"><span></span><span></span></button>
   </div>
@@ -44,99 +49,155 @@
 
 <main>
 
+  <!-- HERO -->
   <section class="hero" id="inicio">
-    <div class="hero__in">
-      <div class="hero__txt">
-        <p class="kicker">Enfermeira esteta</p>
-        <h1>Um novo olhar sobre a sua <strong>beleza natural</strong></h1>
-        <p class="hero__sub">Cuidados à saúde, procedimentos estéticos avançados e um spa integrativo para revitalizar a sua beleza e recarregar as energias.</p>
-        <div class="hero__cta">
-          <a class="btn" href="#" data-wa><svg><use href="#wa"/></svg>Agende uma consulta</a>
-          <a class="link" href="#procedimentos">Ver procedimentos</a>
-        </div>
-      </div>
-      <figure class="hero__foto">
-        <img src="img/retrato-hero.webp" width="1000" height="1000" alt="Dra. Kiss Cunha de uniforme, sorrindo">
-      </figure>
-    </div>
-  </section>
-
-  <section class="secao" id="procedimentos">
-    <header class="titulo">
-      <svg class="titulo__k"><use href="#k"/></svg>
-      <h2>Conheça os nossos <strong>procedimentos</strong></h2>
-    </header>
-
-    <div class="procs">
-      <article class="proc">
-        <div class="proc__foto"><img src="img/massagem.webp" loading="lazy" width="683" height="1024" alt="Dra. Kiss Cunha aplicando massagem terapêutica"></div>
-        <div class="proc__txt">
-          <h3>Massagens estéticas e terapêuticas</h3>
-          <p>Relaxamento profundo com resultado para o corpo. As técnicas modelam e reduzem medidas, melhoram a circulação, suavizam a textura da pele e aliviam tensões.</p>
-          <p>Cada sessão revitaliza corpo e mente, para quem quer cuidar da aparência investindo em bem-estar.</p>
-        </div>
-      </article>
-
-      <article class="proc">
-        <div class="proc__foto"><img src="img/facial.webp" loading="lazy" width="900" height="1350" alt="Procedimento de harmonização facial"></div>
-        <div class="proc__txt">
-          <h3>Harmonização facial</h3>
-          <p>Realça a simetria e o equilíbrio do rosto, valorizando os traços naturais. O tratamento é personalizado para cada pessoa, com resultado sutil e elegante.</p>
-          <ul class="tags"><li>Preenchedores</li><li>Toxina botulínica</li><li>Bioestimuladores</li></ul>
-        </div>
-      </article>
-
-      <article class="proc">
-        <div class="proc__foto"><img src="img/corporal.webp" loading="lazy" width="900" height="1348" alt="Dra. Kiss Cunha de jaleco rosa"></div>
-        <div class="proc__txt">
-          <h3>Harmonização corporal</h3>
-          <p>Redefine e equilibra as proporções do corpo, com contornos mais definidos. Atua em áreas específicas: firmeza, redução de medidas e textura da pele, de forma segura e gradual.</p>
-          <ul class="tags"><li>Bioestimuladores de colágeno</li><li>Enzimas lipolíticas</li><li>Radiofrequência</li><li>Ultrassom</li></ul>
-        </div>
-      </article>
+    <div class="hero__fundo" aria-hidden="true"><img src="img/v2-fundo.webp" alt=""></div>
+    <p class="hero__nome" aria-hidden="true"><span>Kiss</span><span>Cunha</span></p>
+    <div class="hero__foto">
+      <img src="img/v2-recorte.webp" width="1000" height="1500" alt="Dra. Kiss Cunha, de vestido preto, em retrato de estúdio">
     </div>
 
-    <p class="centro"><a class="btn btn--escuro" href="#" data-wa><svg><use href="#wa"/></svg>Agende uma consulta</a></p>
+    <div class="selo hero__selo" aria-hidden="true">
+      <svg class="selo__txt" viewBox="0 0 120 120"><defs><path id="circ" d="M60 60m-46 0a46 46 0 1 1 92 0a46 46 0 1 1-92 0"/></defs>
+        <text><textPath href="#circ">Estética avançada · Terapias manuais · </textPath></text></svg>
+      <svg class="selo__k"><use href="#k"/></svg>
+    </div>
+
+    <div class="hero__esq">
+      <p class="kicker">Enfermeira esteta</p>
+      <h1>Um novo olhar sobre a sua <em>beleza natural</em></h1>
+      <a class="pill" href="#" data-wa>Agende uma consulta <span class="estrela" aria-hidden="true">✦</span></a>
+      <p class="assinatura">Dra. Kiss Cunha</p>
+    </div>
+
+    <div class="hero__dir">
+      <p>Cuidados à saúde, procedimentos estéticos avançados e um spa integrativo para revitalizar a sua beleza e recarregar as energias.</p>
+      <a class="hero__wa" href="#" data-wa>
+        <span>Agendamento<br>pelo WhatsApp</span>
+        <span class="circulo" aria-hidden="true"><svg><use href="#wa"/></svg></span>
+      </a>
+    </div>
+
+    <a class="rolar" href="#pilares" aria-label="Rolar para baixo"><span></span>Role</a>
   </section>
 
-  <section class="faixa" aria-label="Frase">
-    <img src="img/consulta.webp" loading="lazy" alt="" width="1620" height="2048">
-    <p>Sua autoestima em primeiro lugar, <strong>sempre.</strong></p>
+  <!-- PILARES -->
+  <section class="pilares" id="pilares" aria-label="Diferenciais">
+    <ul class="pilares__lista">
+      <li>
+        <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M20 6v28M6 20h28"/><rect x="4" y="4" width="32" height="32" rx="2"/></svg>
+        <div><strong>Enfermeira esteta</strong><span>Formação em saúde</span></div>
+      </li>
+      <li>
+        <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="17" cy="17" r="11"/><path d="m25 25 10 10M12 17h10M17 12v10"/></svg>
+        <div><strong>Avaliação completa</strong><span>Facial e corporal</span></div>
+      </li>
+      <li>
+        <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M20 4 34 10v10c0 8-6 14-14 16C12 34 6 28 6 20V10z"/><path d="m14 20 4 4 8-8"/></svg>
+        <div><strong>Baseada em evidências</strong><span>Técnicas seguras</span></div>
+      </li>
+      <li>
+        <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="14" cy="14" r="5"/><circle cx="27" cy="14" r="5"/><path d="M4 33c0-6 4.5-10 10-10s10 4 10 10M22 23.5c1.5-.3 3-.5 5-.5 5.5 0 9 4 9 10"/></svg>
+        <div><strong>Equipe multidisciplinar</strong><span>Do pré ao pós</span></div>
+      </li>
+    </ul>
   </section>
 
+  <!-- SOBRE -->
   <section class="secao sobre" id="sobre">
-    <figure class="sobre__foto">
-      <img src="img/retrato-sobre.webp" loading="lazy" width="1000" height="1000" alt="Retrato da Dra. Kiss Cunha">
-    </figure>
     <div class="sobre__txt">
-      <p class="kicker kicker--escuro">Conheça</p>
-      <h2>Dra. Kiss Cunha</h2>
-      <p class="sobre__tag">Referência em estética avançada</p>
+      <p class="kicker">Sobre mim</p>
+      <h2>Beleza com propósito.<br><em>Cuidado</em> com técnica.</h2>
       <p>Olá, muito prazer! Eu sou a Dra. Kiss Cunha, e minha missão é elevar sua qualidade de vida e autoestima.</p>
       <p>Apaixonada pela beleza e pelo bem-estar, construí minha trajetória ao lado de profissionais renomados da área. Hoje, trago essa experiência para oferecer cuidados estéticos personalizados, promovendo mais saúde e valorização de cada detalhe que faz você única.</p>
-      <p>Cada atendimento é uma oportunidade de acompanhar seu progresso com ética, comprometimento e total envolvimento, em sintonia com minha equipe dedicada.</p>
-      <p>Estamos prontos para acolher você com uma abordagem única e especial, cuidando do seu bem-estar com sabedoria, técnica e uma dose generosa de carinho.</p>
-      <a class="btn btn--escuro" href="#" data-wa><svg><use href="#wa"/></svg>Agende uma consulta</a>
+      <ul class="checks">
+        <li><svg><use href="#check"/></svg>Atendimento personalizado</li>
+        <li><svg><use href="#check"/></svg>Ética e comprometimento</li>
+        <li><svg><use href="#check"/></svg>Acompanhamento do seu progresso</li>
+        <li><svg><use href="#check"/></svg>Equipe dedicada</li>
+      </ul>
+      <a class="btn-linha" href="#" data-wa>Agende uma consulta <svg><use href="#seta"/></svg></a>
+    </div>
+    <figure class="moldura sobre__foto">
+      <img src="img/consulta.webp" loading="lazy" width="1620" height="2048" alt="Dra. Kiss Cunha em consulta com uma paciente">
+      <figcaption>
+        <svg><use href="#k"/></svg>
+        <span>Com sabedoria, técnica e<br>uma dose generosa de carinho.</span>
+      </figcaption>
+    </figure>
+  </section>
+
+  <!-- PROCEDIMENTOS -->
+  <section class="secao procs" id="procedimentos">
+    <header class="cab">
+      <p class="kicker">Procedimentos</p>
+      <h2>Como posso <em>cuidar</em> de você</h2>
+    </header>
+
+    <div class="procs__grade">
+      <article class="card">
+        <img src="img/massagem.webp" loading="lazy" width="683" height="1024" alt="Dra. Kiss Cunha aplicando massagem terapêutica">
+        <div class="card__txt">
+          <span class="tag">Corpo &amp; bem-estar</span>
+          <h3>Massagens estéticas e terapêuticas</h3>
+          <p>Relaxamento profundo com resultado para o corpo. Modelam e reduzem medidas, melhoram a circulação, suavizam a pele e aliviam tensões.</p>
+          <a href="#" data-wa class="card__link" aria-label="Agendar massagens"><svg><use href="#seta"/></svg></a>
+        </div>
+      </article>
+      <article class="card">
+        <img src="img/facial.webp" loading="lazy" width="900" height="1350" alt="Procedimento de harmonização facial">
+        <div class="card__txt">
+          <span class="tag">Rosto</span>
+          <h3>Harmonização facial</h3>
+          <p>Realça a simetria e o equilíbrio do rosto, valorizando os traços naturais. Personalizada, com resultado sutil e elegante.</p>
+          <a href="#" data-wa class="card__link" aria-label="Agendar harmonização facial"><svg><use href="#seta"/></svg></a>
+        </div>
+      </article>
+      <article class="card">
+        <img src="img/corporal.webp" loading="lazy" width="900" height="1348" alt="Dra. Kiss Cunha de jaleco">
+        <div class="card__txt">
+          <span class="tag">Corpo</span>
+          <h3>Harmonização corporal</h3>
+          <p>Redefine e equilibra as proporções do corpo: firmeza, redução de medidas e textura da pele, de forma segura e gradual.</p>
+          <a href="#" data-wa class="card__link" aria-label="Agendar harmonização corporal"><svg><use href="#seta"/></svg></a>
+        </div>
+      </article>
+    </div>
+
+    <div class="tecnicas">
+      <p class="kicker">Técnicas &amp; recursos</p>
+      <ul>
+        <li>Toxina botulínica</li><li>Preenchedores</li><li>Bioestimuladores de colágeno</li><li>Enzimas lipolíticas</li><li>Radiofrequência</li><li>Ultrassom</li><li>Peelings químicos</li><li>Terapias manuais</li>
+      </ul>
     </div>
   </section>
 
-  <section class="secao" id="duvidas">
-    <header class="titulo">
-      <svg class="titulo__k"><use href="#k"/></svg>
-      <h2>Tire suas dúvidas sobre <strong>estética avançada</strong></h2>
-    </header>
+  <!-- FRASE -->
+  <section class="frase" aria-label="Frase">
+    <span class="frase__aspas" aria-hidden="true">“</span>
+    <p>Sua autoestima em primeiro lugar, <em>sempre.</em></p>
+    <p class="assinatura">Dra. Kiss Cunha</p>
+  </section>
+
+  <!-- DÚVIDAS -->
+  <section class="secao duvidas" id="duvidas">
+    <div class="duvidas__cab">
+      <p class="kicker">Dúvidas frequentes</p>
+      <h2>Tire suas dúvidas sobre <em>estética avançada</em></h2>
+      <p>Não encontrou sua pergunta? Fale comigo e eu explico cada etapa com calma.</p>
+      <a class="btn-linha" href="#" data-wa>Perguntar pelo WhatsApp <svg><use href="#seta"/></svg></a>
+    </div>
 
     <div class="faq">
-      <details>
-        <summary>Quanto tempo dura o efeito do botox e dos preenchedores?</summary>
+      <details open>
+        <summary><span class="faq__n">01</span>Quanto tempo dura o efeito do botox e dos preenchedores?</summary>
         <div class="faq__r">
           <p>O efeito da toxina botulínica (Botox) geralmente dura de <b>três a seis meses</b>, dependendo da quantidade de produto, da área tratada, do metabolismo e da resposta do corpo. Depois desse período, os músculos recuperam a atividade aos poucos e as linhas de expressão podem reaparecer.</p>
           <p>O preenchimento com ácido hialurônico dura de <b>seis meses a dois anos</b>, conforme o produto, a área e o metabolismo. Áreas de mais movimento, como os lábios, absorvem o ácido mais rápido.</p>
         </div>
       </details>
-
       <details>
-        <summary>Como funciona a consulta com a Dra. Kiss Cunha?</summary>
+        <summary><span class="faq__n">02</span>Como funciona a consulta com a Dra. Kiss Cunha?</summary>
         <div class="faq__r">
           <p>Uma consulta individualizada e humanizada, de acordo com as suas necessidades:</p>
           <ul>
@@ -147,9 +208,8 @@
           </ul>
         </div>
       </details>
-
       <details>
-        <summary>Como sei se sou candidata a harmonização facial ou corporal?</summary>
+        <summary><span class="faq__n">03</span>Como sei se sou candidata a harmonização facial ou corporal?</summary>
         <div class="faq__r">
           <ol>
             <li><b>Saúde geral:</b> se você está saudável e não tem condições que aumentem os riscos do procedimento, pode ser uma candidata adequada.</li>
@@ -157,23 +217,20 @@
             <li><b>Avaliação profissional:</b> uma especialista avalia sua estrutura facial ou corporal, conversa sobre seus objetivos e indica o melhor caminho.</li>
             <li><b>Cuidados pós-procedimento:</b> seguir as orientações é essencial para a recuperação e para o resultado.</li>
           </ol>
-          <p>Agende sua consulta e veja qual procedimento é ideal para você.</p>
         </div>
       </details>
-
       <details>
-        <summary>Qual a diferença da harmonização feita por uma enfermeira esteta?</summary>
+        <summary><span class="faq__n">04</span>Qual a diferença da harmonização feita por uma enfermeira esteta?</summary>
         <div class="faq__r">
           <p>A enfermagem tem papel central na promoção e manutenção da saúde. Na estética, a enfermeira realiza procedimentos avançados, como preenchimentos, toxina botulínica e peelings químicos, e cuida da pele com orientações personalizadas, avaliação das suas necessidades e garantia de práticas seguras durante todo o procedimento.</p>
           <p>A combinação de formação em enfermagem e conhecimento estético faz da enfermeira esteta uma profissional completa nesse campo.</p>
         </div>
       </details>
-
       <details>
-        <summary>Quais os riscos e benefícios do botox e do ácido hialurônico?</summary>
+        <summary><span class="faq__n">05</span>Quais os riscos e benefícios do botox e do ácido hialurônico?</summary>
         <div class="faq__r faq__r--duas">
           <div>
-            <h4>Toxina botulínica (Botox)</h4>
+            <h4>Toxina botulínica</h4>
             <p class="rotulo">Benefícios</p>
             <ul>
               <li>Reduz rugas dinâmicas: testa, ao redor dos olhos e entre as sobrancelhas.</li>
@@ -210,31 +267,57 @@
     </div>
   </section>
 
+  <!-- CONTATO -->
   <section class="contato" id="contato">
-    <svg class="contato__k"><use href="#k"/></svg>
-    <h2>Vamos cuidar de <strong>você?</strong></h2>
-    <p>A consulta é o primeiro passo: avaliação completa e um plano pensado para você.</p>
-    <a class="btn" href="#" data-wa><svg><use href="#wa"/></svg>Agendar pelo WhatsApp</a>
-    <ul class="contato__lista">
-      <li><a href="#" data-wa>+55 (11) 91480-1043</a></li>
-      <li><a href="mailto:dra.kisscunha@gmail.com">dra.kisscunha@gmail.com</a></li>
-    </ul>
+    <div class="contato__in">
+      <div class="contato__txt">
+        <p class="kicker">Agende sua consulta</p>
+        <h2>Vamos cuidar de <em>você?</em></h2>
+        <p>A consulta é o primeiro passo: avaliação completa e um plano pensado para você.</p>
+        <a class="btn-cheio" href="#" data-wa>Agendar pelo WhatsApp <svg><use href="#seta"/></svg></a>
+      </div>
+      <ul class="contato__lista">
+        <li>
+          <svg><use href="#wa"/></svg>
+          <div><span>WhatsApp</span><a href="#" data-wa>+55 (11) 91480-1043</a></div>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="m3.5 6 8.5 7 8.5-7"/></svg>
+          <div><span>E-mail</span><a href="mailto:dra.kisscunha@gmail.com">dra.kisscunha@gmail.com</a></div>
+        </li>
+      </ul>
+      <div class="selo contato__selo" aria-hidden="true">
+        <svg class="selo__txt" viewBox="0 0 120 120"><text><textPath href="#circ">Sua autoestima em primeiro lugar · </textPath></text></svg>
+        <svg class="selo__k"><use href="#k"/></svg>
+      </div>
+    </div>
   </section>
 
 </main>
 
 <footer class="rodape">
   <div class="rodape__in">
-    <a href="#inicio" class="marca marca--claro">
-      <svg class="marca__k"><use href="#k"/></svg>
-      <span class="marca__nome">Dra. Kiss Cunha<small>Estética Avançada &amp; Terapias Manuais</small></span>
-    </a>
-    <p class="rodape__cred">© <span id="ano">2026</span> Dra. Kiss Cunha · Site por <a href="mailto:sttudioonze@gmail.com">Sttudio 11 Web Design</a></p>
+    <div class="rodape__marca">
+      <a href="#inicio" class="marca">
+        <svg class="marca__k"><use href="#k"/></svg>
+        <span class="marca__nome">Dra. Kiss Cunha<small>Estética avançada &amp; terapias manuais</small></span>
+      </a>
+      <p>© <span id="ano">2026</span> Dra. Kiss Cunha. Todos os direitos reservados.</p>
+    </div>
+    <nav class="rodape__col" aria-label="Rodapé">
+      <p class="rotulo">Navegação</p>
+      <a href="#sobre">Sobre</a><a href="#procedimentos">Procedimentos</a><a href="#duvidas">Dúvidas</a><a href="#contato">Contato</a>
+    </nav>
+    <div class="rodape__col">
+      <p class="rotulo">Contato</p>
+      <a href="#" data-wa>+55 (11) 91480-1043</a><a href="mailto:dra.kisscunha@gmail.com">dra.kisscunha@gmail.com</a>
+    </div>
   </div>
+  <p class="rodape__cred">Site por <a href="mailto:sttudioonze@gmail.com">Sttudio 11 Web Design</a></p>
 </footer>
 
 <a class="wa-flutua" href="#" data-wa aria-label="Agendar pelo WhatsApp"><svg><use href="#wa"/></svg></a>
 
-<script src="js/main.js"></script>
+<script src="js/site.js"></script>
 </body>
 </html>

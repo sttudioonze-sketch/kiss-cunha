@@ -75,8 +75,8 @@ h1 em,h2 em,.frase em{font-style:italic;color:var(--ouro)}
   -webkit-mask-image:radial-gradient(closest-side at 50% 45%,#000 55%,transparent 100%);
           mask-image:radial-gradient(closest-side at 50% 45%,#000 55%,transparent 100%)}
 .hero__foto{z-index:2}
-.hero__nome{position:absolute;z-index:1;left:0;right:0;top:clamp(90px,12vh,130px);margin:0;display:flex;justify-content:center;gap:.62em;
-  font:500 clamp(96px,13.4vw,240px)/.8 var(--display);letter-spacing:.01em;text-transform:uppercase;color:var(--ouro);white-space:nowrap;
+.hero__nome{position:absolute;z-index:1;left:0;right:0;top:clamp(84px,11vh,120px);margin:0;display:flex;justify-content:center;gap:.5em;
+  font:400 clamp(120px,20.8vw,380px)/.74 "Instrument Serif",var(--display);letter-spacing:-.005em;text-transform:uppercase;color:var(--ouro);white-space:nowrap;
   text-shadow:0 0 50px rgba(191,162,111,.15)}
 .hero__esq{position:absolute;z-index:4;left:var(--gut);bottom:clamp(48px,11vh,120px);max-width:min(400px,30vw)}
 .hero__esq h1{margin:0 0 30px;font:500 clamp(30px,3vw,46px)/1.08 var(--display);color:var(--off)}
@@ -86,7 +86,7 @@ h1 em,h2 em,.frase em{font-style:italic;color:var(--ouro)}
 .circulo{flex:none;width:54px;height:54px;border:1px solid rgba(191,162,111,.55);border-radius:50%;display:grid;place-items:center;transition:background .25s,color .25s}
 .circulo svg{width:22px;height:22px}
 .hero__wa:hover .circulo{background:var(--ouro);color:var(--preto)}
-.hero__selo{position:absolute;z-index:4;right:calc(var(--gut) + 10px);top:38%}
+.hero__selo{position:absolute;z-index:4;right:calc(var(--gut) + 10px);top:47%}
 .rolar{position:absolute;z-index:4;left:50%;bottom:22px;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:10px;
   font:400 10px var(--corpo);letter-spacing:.3em;text-transform:uppercase;color:var(--txt)}
 .rolar span{width:1px;height:38px;background:linear-gradient(var(--ouro),transparent);animation:pinga 2.2s ease-in-out infinite}
@@ -252,7 +252,7 @@ h1 em,h2 em,.frase em{font-style:italic;color:var(--ouro)}
   .hero{height:auto;max-height:none;min-height:0;padding:calc(120px + 72svh - 40px) var(--gut) 72px}
   .hero__fundo,.hero__foto{height:72svh;top:120px;bottom:auto}
   .hero::after{inset:calc(120px + 40svh) 0 0;height:auto;background:linear-gradient(to bottom,transparent,rgba(18,18,19,.85) 20svh,var(--preto) 32svh)}
-  .hero__nome{top:84px;font-size:15.5vw;gap:.4em}
+  .hero__nome{top:80px;font-size:21vw;gap:.3em}
   .hero__esq,.hero__dir{position:relative;left:auto;right:auto;bottom:auto;max-width:none;width:auto}
   .hero__esq h1{max-width:13em}
   .hero__dir{margin-top:40px;padding-top:28px;border-top:1px solid var(--linha-2)}

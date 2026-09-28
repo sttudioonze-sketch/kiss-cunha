@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "kiss",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-c", "import os,http.server as h;os.chdir('/Users/luisestevess11wd/Documents/Projetos Claude/Kiss Cunha');h.ThreadingHTTPServer(('127.0.0.1',8790),h.SimpleHTTPRequestHandler).serve_forever()"],
+      "port": 8790
+    }
+  ]
+}

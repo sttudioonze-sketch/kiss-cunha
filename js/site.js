@@ -11,7 +11,7 @@ addEventListener("scroll", aoRolar, { passive: true });
 aoRolar();
 
 // Item ativo do menu conforme a seção na tela
-const links = [...nav.querySelectorAll(".menu a[href^='#']")];
+const links = [...nav.querySelectorAll(".menu a[href^='#']")].filter((a) => a.getAttribute("href").length > 1);
 const obsMenu = new IntersectionObserver((entradas) => {
   entradas.forEach((e) => {
     if (e.isIntersecting) links.forEach((a) => a.classList.toggle("ativo", a.getAttribute("href") === "#" + e.target.id));
@@ -33,18 +33,5 @@ const obsFlutua = new IntersectionObserver((entradas) => {
   flutua.classList.toggle("oculto", naTela.size > 0);
 }, { threshold: 0.15 });
 document.querySelectorAll(".hero, .contato").forEach((el) => obsFlutua.observe(el));
-
-// Entrada suave dos blocos
-const blocos = document.querySelectorAll(".pilares__lista li, .sobre__txt, .sobre__foto, .cab, .card, .tecnicas, .frase > *, .duvidas__cab, .faq, .contato__in");
-const obsRevela = new IntersectionObserver((entradas) => {
-  entradas.forEach((e) => {
-    if (e.isIntersecting) { e.target.classList.add("visto"); obsRevela.unobserve(e.target); }
-  });
-}, { rootMargin: "0px 0px -8% 0px" });
-blocos.forEach((b, i) => {
-  b.classList.add("revela");
-  b.style.transitionDelay = (b.matches(".card, .pilares__lista li") ? (i % 4) * 90 : 0) + "ms";
-  obsRevela.observe(b);
-});
 
 document.getElementById("ano").textContent = new Date().getFullYear();

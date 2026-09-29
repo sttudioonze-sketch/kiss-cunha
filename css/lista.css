@@ -98,9 +98,6 @@
 .lista .rodape__col{align-items:center}
 .lista .rodape__marca p{margin-top:16px}
 
-@media (prefers-reduced-motion:no-preference){
-  .lk-nome{animation:brilho 14s ease-in-out infinite alternate}
-}
 @media (max-width:360px){
   .lk-titulo{font-size:34px}
   .destaque h2{font-size:36px}

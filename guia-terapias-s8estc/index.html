@@ -83,7 +83,11 @@
       <a class="pill btn-ouro" href="#" data-wa="gostaria de agendar uma sessão de terapia manual">Agendar sessão <span class="estrela" aria-hidden="true">✦</span></a>
     </div>
 
-    <p class="hero__assina">“Seu momento de recarregar<br>as energias comigo.”<small>Enfermeira esteta · Coren SE 680040</small></p>
+    <p class="hero__assina"><span>“Seu momento de recarregar as energias comigo.”</span><small>Enfermeira esteta · Coren SE 680040</small></p>
+
+    <div class="idioma hero__idioma" role="group" aria-label="Idioma">
+      <button type="button" data-lang="pt" aria-pressed="true">PT</button><button type="button" data-lang="en" aria-pressed="false">EN</button><button type="button" data-lang="es" aria-pressed="false">ES</button>
+    </div>
   </section>
 
   <!-- MINHA HISTÓRIA -->
@@ -316,15 +320,8 @@
 
 <a class="wa-flutua oculto" href="#" data-wa="gostaria de agendar uma sessão de terapia manual" aria-label="Agendar pelo WhatsApp"><svg><use href="#wa"/></svg></a>
 
-<script>
-  // WhatsApp com a mensagem de cada botão
-  document.querySelectorAll("[data-wa]").forEach((a) => {
-    a.href = "https://wa.me/5511914801043?text=" + encodeURIComponent("Olá Kiss, " + a.dataset.wa);
-    a.target = "_blank";
-    a.rel = "noopener";
-  });
-</script>
 <script src="../js/site.js"></script>
 <script src="../js/efeitos.js"></script>
+<script src="../js/i18n.js"></script>
 </body>
 </html>

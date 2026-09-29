@@ -222,6 +222,96 @@ const T = {
   "Conheça a Dra. Kiss Cunha": ["Meet Dra. Kiss Cunha", "Conoce a la Dra. Kiss Cunha"],
   "Mãos que tocam <em>e transformam</em>": ["Hands that touch <em>and transform</em>", "Manos que tocan <em>y transforman</em>"],
 
+  // ----- guia de terapias manuais -----
+  "Descubra o <em>poder curativo</em> das terapias manuais": ["Discover the <em>healing power</em> of manual therapies", "Descubre el <em>poder curativo</em> de las terapias manuales"],
+  "Minha história com a <em>massoterapia</em>": ["My story with <em>massage therapy</em>", "Mi historia con la <em>masoterapia</em>"],
+  "Dra. Kiss <em>Cunha</em>": ["Dra. Kiss <em>Cunha</em>", "Dra. Kiss <em>Cunha</em>"],
+  "Thai <em>massage</em>": ["Thai <em>massage</em>", "Masaje <em>tailandés</em>"],
+  "Um toque para cada <em>momento</em>": ["A touch for every <em>moment</em>", "Un toque para cada <em>momento</em>"],
+  "Um dia especial para clientes e <em>colaboradores</em>": ["A special day for clients and <em>employees</em>", "Un día especial para clientes y <em>colaboradores</em>"],
+  "Seu momento de <em>recarregar</em>": ["Your time to <em>recharge</em>", "Tu momento para <em>recargar</em>"],
+  "Massagem relaxante": ["Relaxing massage", "Masaje relajante"],
+  "Drenagem linfática": ["Lymphatic drainage", "Drenaje linfático"],
+  "Dreno detox ou modeladora": ["Detox drainage or body sculpting", "Drenaje detox o modelador"],
+  "Massagem para a terceira idade": ["Massage for seniors", "Masaje para la tercera edad"],
+  "Massagem desportiva": ["Sports massage", "Masaje deportivo"],
+  "Massagem em gestantes": ["Prenatal massage", "Masaje para embarazadas"],
+  "Massagem bronzeadora": ["Tanning massage", "Masaje bronceador"],
+  "Pós-operatório de cirurgias estéticas": ["Aesthetic surgery aftercare", "Postoperatorio de cirugías estéticas"],
+  "Terapias": ["Manual", "Terapias"],
+  "Manuais": ["Therapies", "Manuales"],
+  "“Seu momento de recarregar as energias comigo.”": ["“Your moment to recharge your energy with me.”", "“Tu momento de recargar energías conmigo.”"],
+  "Enfermeira esteta · Coren SE 680040": ["Aesthetic nurse · Coren SE 680040", "Enfermera estética · Coren SE 680040"],
+  "Enfermeira esteta<br>Coren SE 680040": ["Aesthetic nurse<br>Coren SE 680040", "Enfermera estética<br>Coren SE 680040"],
+  "Minha história": ["My story", "Mi historia"],
+  "Apaixonada por massagem, sempre procurei profissionais capacitados para ter um momento de relaxamento ou para acreditar no meu progresso de desenvolvimento estético pessoal, com as massagens relaxante, modeladora, drenagem e uma que me fazia muito bem, a liberação miofascial.": ["Passionate about massage, I always sought out skilled professionals for a moment of relaxation or to believe in my own aesthetic progress, through relaxing massage, body sculpting, drainage and one that did me a lot of good: myofascial release.", "Apasionada por los masajes, siempre busqué profesionales capacitados para tener un momento de relajación o para creer en mi propio progreso estético, con masajes relajantes, modeladores, drenaje y uno que me hacía muy bien: la liberación miofascial."],
+  "Atuo com massagens há 3 anos e sinto muita satisfação em fazer meus pacientes mais felizes.": ["I have been working with massage for 3 years and it's deeply rewarding to make my patients happier.", "Trabajo con masajes desde hace 3 años y me llena de satisfacción hacer más felices a mis pacientes."],
+  "O toque cura, as mãos abençoam e levam nossa boa energia por onde formos.": ["Touch heals, hands bless and carry our good energy wherever we go.", "El toque cura, las manos bendicen y llevan nuestra buena energía a donde vayamos."],
+  "Conheça minhas massagens": ["See my massages", "Conoce mis masajes"],
+  "Quem sou eu?": ["Who am I?", "¿Quién soy?"],
+  "Olá, sou a Dra. Kiss Cunha, enfermeira esteta e sergipana. Minha paixão pela beleza e pelo cuidado com o corpo e a mente me levou a buscar conhecimentos e aprimorar técnicas que hoje posso oferecer aos meus pacientes. Acredito que a estética é uma área que vai muito além da vaidade: ela tem o poder de transformar sonhos em realidade e proporcionar uma sensação única de bem-estar e autoconfiança.": ["Hi, I'm Dra. Kiss Cunha, an aesthetic nurse from Sergipe, Brazil. My passion for beauty and for caring for body and mind led me to seek knowledge and refine techniques I can now offer my patients. I believe aesthetics goes far beyond vanity: it has the power to turn dreams into reality and bring a unique sense of well-being and self-confidence.", "Hola, soy la Dra. Kiss Cunha, enfermera estética de Sergipe, Brasil. Mi pasión por la belleza y por el cuidado del cuerpo y la mente me llevó a buscar conocimiento y perfeccionar técnicas que hoy puedo ofrecer a mis pacientes. Creo que la estética va mucho más allá de la vanidad: tiene el poder de convertir sueños en realidad y brindar una sensación única de bienestar y autoconfianza."],
+  "Cada paciente que atendo é único e possui necessidades específicas. Por isso, busco oferecer um atendimento personalizado e de qualidade, utilizando técnicas avançadas e seguras para garantir resultados satisfatórios e duradouros. É uma satisfação imensa poder ajudar meus pacientes a se sentirem ainda mais bonitos, confiantes e felizes consigo mesmos.": ["Every patient I see is unique and has specific needs. That's why I offer personalised, high-quality care, using advanced and safe techniques to achieve satisfying, lasting results. It's a great joy to help my patients feel even more beautiful, confident and happy with themselves.", "Cada paciente que atiendo es único y tiene necesidades específicas. Por eso ofrezco una atención personalizada y de calidad, con técnicas avanzadas y seguras para lograr resultados satisfactorios y duraderos. Es una enorme satisfacción ayudar a mis pacientes a sentirse aún más bellos, seguros y felices consigo mismos."],
+  "Se você busca um tratamento especializado e uma experiência única em cuidados estéticos, venha conhecer meu trabalho.": ["If you're looking for specialised treatment and a unique aesthetic care experience, come and get to know my work.", "Si buscas un tratamiento especializado y una experiencia única en cuidados estéticos, ven a conocer mi trabajo."],
+  "Vou te ajudar a transformar seus sonhos em <em>possibilidades reais.</em>": ["I'll help you turn your dreams into <em>real possibilities.</em>", "Te ayudaré a convertir tus sueños en <em>posibilidades reales.</em>"],
+  "Formação": ["Training", "Formación"],
+  "Os meus olhos se abriram ao entrar em contato com a Thai massage. A massagem tailandesa, ou Nuad Phaen Boran, é uma terapia curativa tailandesa que utiliza a massagem como forma de equilíbrio corporal: o terapeuta usa pés, joelhos, polegares, palmas e cotovelos, além de pressão, compressão e alongamento, no corpo do paciente. Trabalha também técnicas de respiração e meditação.": ["My eyes were opened when I discovered Thai massage. Thai massage, or Nuad Phaen Boran, is a traditional Thai healing therapy that uses massage to bring the body into balance: the therapist uses feet, knees, thumbs, palms and elbows, along with pressure, compression and stretching. It also works with breathing and meditation techniques.", "Mis ojos se abrieron al conocer el masaje tailandés. El masaje tailandés, o Nuad Phaen Boran, es una terapia curativa tradicional que usa el masaje para equilibrar el cuerpo: el terapeuta utiliza pies, rodillas, pulgares, palmas y codos, además de presión, compresión y estiramiento. También trabaja técnicas de respiración y meditación."],
+  "Ao conhecer mais sobre a ciência da Thai massage, pude adentrar mais no conhecimento e no amor pela arte, e em todos os meus atendimentos sempre uso alguma técnica e ensinamento dela.": ["Learning more about the science of Thai massage deepened my knowledge and love for the art, and I bring one of its techniques and teachings into every session.", "Al conocer más la ciencia del masaje tailandés, profundicé en el conocimiento y el amor por este arte, y en cada sesión uso alguna de sus técnicas y enseñanzas."],
+  "Habilitação em Thai Massage, níveis 01 e 02": ["Thai Massage certification, levels 01 and 02", "Certificación en Masaje Tailandés, niveles 01 y 02"],
+  "Minhas massagens": ["My massages", "Mis masajes"],
+  "Realizada em todo o corpo, com toques que estimulam sensações de bem-estar e de conexão consigo mesmo.": ["A full-body massage with touches that awaken a sense of well-being and connection with yourself.", "Se realiza en todo el cuerpo, con toques que estimulan sensaciones de bienestar y de conexión con uno mismo."],
+  "<b>Benefícios:</b> diminuição do estresse, aumento da imunidade, diminuição de tensões musculares, ansiedade e medo.": ["<b>Benefits:</b> less stress, stronger immunity, and relief from muscle tension, anxiety and fear.", "<b>Beneficios:</b> menos estrés, más inmunidad y alivio de tensiones musculares, ansiedad y miedo."],
+  "Por meio de uma anamnese, são avaliadas as condições de saúde e a necessidade de toques mais profundos em regiões ou pontos a serem tratados. O ambiente é seguro e climatizado, com iluminação agradável, música e sons que conduzem ao relaxamento.": ["A health history assesses your condition and whether deeper pressure is needed in specific areas or points. The setting is safe and climate-controlled, with soft lighting, music and sounds that lead you into relaxation.", "Mediante una anamnesis se evalúan tu estado de salud y la necesidad de toques más profundos en zonas o puntos a tratar. El ambiente es seguro y climatizado, con iluminación agradable, música y sonidos que conducen a la relajación."],
+  "A queridinha para dar adeus à retenção de líquidos. Estimula o sistema linfático, melhora o fluxo, reduz a retenção de líquidos e favorece a circulação, ajudando na eliminação de toxinas do corpo.": ["The favourite for saying goodbye to fluid retention. It stimulates the lymphatic system, improves flow, reduces fluid retention and boosts circulation, helping the body eliminate toxins.", "La favorita para decir adiós a la retención de líquidos. Estimula el sistema linfático, mejora el flujo, reduce la retención y favorece la circulación, ayudando a eliminar toxinas del cuerpo."],
+  "A preferida para redução de medidas! Associada à drenagem linfática, é uma técnica com movimentos mais intensos e firmes que ajuda na remodelação corporal, visando a redução de medidas e a melhora da aparência da pele.": ["The go-to for reducing measurements! Combined with lymphatic drainage, it uses firmer, more intense movements to help reshape the body, reduce measurements and improve the look of the skin.", "¡La preferida para reducir medidas! Asociada al drenaje linfático, usa movimientos más intensos y firmes que ayudan a remodelar el cuerpo, reducir medidas y mejorar el aspecto de la piel."],
+  "Pode ser associada a procedimentos de intradermoterapia e criolipólise para perda de gordura.": ["Can be combined with intradermotherapy and cryolipolysis for fat loss.", "Puede combinarse con intradermoterapia y criolipólisis para la pérdida de grasa."],
+  "Proporciona alívio da dor, melhora da circulação sanguínea, relaxamento muscular e redução do estresse e da ansiedade.": ["Relieves pain, improves blood circulation, relaxes the muscles and reduces stress and anxiety.", "Alivia el dolor, mejora la circulación sanguínea, relaja los músculos y reduce el estrés y la ansiedad."],
+  "A técnica é adaptada às necessidades e condições de cada pessoa, considerando sua fragilidade e possíveis problemas de saúde.": ["The technique is adapted to each person's needs and condition, taking frailty and possible health issues into account.", "La técnica se adapta a las necesidades y condiciones de cada persona, considerando su fragilidad y posibles problemas de salud."],
+  "Atendimento em home care e em unidades de atenção ao idoso.": ["Available as home care and in senior care facilities.", "Atención a domicilio y en centros de atención al adulto mayor."],
+  "Também conhecida como liberação miofascial, é voltada ao preparo e à recuperação muscular, para atletas ou não. Relaxa os músculos, reduz a tensão, melhora a circulação e ajuda na recuperação após o exercício físico.": ["Also known as myofascial release, it focuses on muscle preparation and recovery, for athletes and non-athletes alike. It relaxes the muscles, reduces tension, improves circulation and speeds recovery after exercise.", "También conocido como liberación miofascial, está enfocado en la preparación y recuperación muscular, para deportistas o no. Relaja los músculos, reduce la tensión, mejora la circulación y ayuda a recuperarse después del ejercicio."],
+  "Também auxilia na prevenção de lesões, identificando áreas de tensão ou desequilíbrios musculares. Pode ser aplicada antes do treino ou da competição para aquecer e preparar os músculos.": ["It also helps prevent injuries by identifying areas of tension or muscle imbalance. It can be done before training or competition to warm up and prepare the muscles.", "También ayuda a prevenir lesiones al identificar zonas de tensión o desequilibrios musculares. Puede aplicarse antes del entrenamiento o la competición para calentar y preparar los músculos."],
+  "Uma forma suave e terapêutica de cuidado durante a gravidez, adaptada às necessidades da gestante: alívio da dor lombar, relaxamento muscular, redução do inchaço e bem-estar geral.": ["A gentle, therapeutic form of care during pregnancy, adapted to the mother-to-be: lower back pain relief, muscle relaxation, less swelling and overall well-being.", "Una forma suave y terapéutica de cuidado durante el embarazo, adaptada a la gestante: alivio del dolor lumbar, relajación muscular, menos hinchazón y bienestar general."],
+  "Ajuda a lidar com as mudanças físicas e emocionais da gestação.": ["It helps you cope with the physical and emotional changes of pregnancy.", "Ayuda a sobrellevar los cambios físicos y emocionales del embarazo."],
+  "Pode ser realizada em home care, com atendimento até o puerpério.": ["Available as home care, including the postpartum period.", "Puede realizarse a domicilio, con atención hasta el puerperio."],
+  "Combina técnicas de massagem com a aplicação de produtos que aceleram o bronzeamento, normalmente com agentes autobronzeadores ou aceleradores de melanina.": ["Combines massage techniques with products that speed up tanning, usually containing self-tanning agents or melanin accelerators.", "Combina técnicas de masaje con la aplicación de productos que aceleran el bronceado, normalmente con autobronceadores o aceleradores de melanina."],
+  "<b>Bronzeado uniforme:</b> a massagem distribui os produtos por igual, evitando manchas e descolorações.": ["<b>Even tan:</b> the massage spreads the products evenly, avoiding streaks and patches.", "<b>Bronceado uniforme:</b> el masaje distribuye los productos de manera pareja, evitando manchas."],
+  "<b>Hidratação da pele:</b> os produtos são ricos em ingredientes hidratantes, que melhoram a textura e a saúde da pele.": ["<b>Skin hydration:</b> the products are rich in moisturising ingredients that improve skin texture and health.", "<b>Hidratación de la piel:</b> los productos son ricos en ingredientes hidratantes que mejoran la textura y la salud de la piel."],
+  "<b>Relaxamento:</b> a própria massagem relaxa os músculos e alivia o estresse.": ["<b>Relaxation:</b> the massage itself relaxes the muscles and relieves stress.", "<b>Relajación:</b> el propio masaje relaja los músculos y alivia el estrés."],
+  "Pode ser feita com seu biquíni ou sunga, ou com biquíni de fita feito antes da sessão.": ["Can be done in your own swimwear, or with a tape bikini applied before the session.", "Puede hacerse con tu bikini o bañador, o con un bikini de cinta hecho antes de la sesión."],
+  "Além das sessões de drenagem linfática (linfoterapia), a consulta de enfermagem traz consultoria e cuidados para uma recuperação melhor, com uso de equipamentos e técnicas como a laserterapia.": ["In addition to lymphatic drainage sessions (lymphotherapy), the nursing consultation provides guidance and care for a better recovery, using equipment and techniques such as laser therapy.", "Además de las sesiones de drenaje linfático (linfoterapia), la consulta de enfermería brinda asesoría y cuidados para una mejor recuperación, con equipos y técnicas como la laserterapia."],
+  "<b>A consulta no pós-operatório contempla:</b>": ["<b>The aftercare consultation includes:</b>", "<b>La consulta postoperatoria incluye:</b>"],
+  "Consulta individualizada e humanizada": ["Individual, human-centred consultation", "Consulta individual y humanizada"],
+  "Anamnese minuciosa": ["Thorough health history", "Anamnesis minuciosa"],
+  "Avaliação facial e corporal baseada em evidências": ["Evidence-based facial and body assessment", "Evaluación facial y corporal basada en evidencia"],
+  "Orientações sobre a equipe que cuidará do caso": ["Guidance on the team who will look after your case", "Orientación sobre el equipo que cuidará tu caso"],
+  "Cuidados pós-procedimento, com apoio da equipe multidisciplinar": ["Aftercare with support from the multidisciplinary team", "Cuidados post-procedimiento, con apoyo del equipo multidisciplinario"],
+  "Para sua empresa": ["For your business", "Para tu empresa"],
+  "O serviço de massagem funciona como um mimo para seu cliente ou paciente em uma data especial, ou num dia da semana em que você queira atrair mais público para sua empresa.": ["The massage service is a treat for your clients or patients on a special date, or on any day of the week when you want to draw more people to your business.", "El servicio de masajes es un detalle para tus clientes o pacientes en una fecha especial, o en un día de la semana en que quieras atraer más público a tu empresa."],
+  "Oferecer massagens aos colaboradores é uma iniciativa ligada à saúde do trabalhador.": ["Offering massages to employees is an investment in workplace health.", "Ofrecer masajes a los colaboradores es una iniciativa ligada a la salud laboral."],
+  "A saúde ocupacional é essencial para o bem-estar da equipe e para prevenir estresse, dores musculares e lesões por esforço repetitivo. As massagens aliviam o estresse, relaxam os músculos tensos e favorecem uma postura melhor, contribuindo para a saúde física e mental.": ["Occupational health is essential for team well-being and for preventing stress, muscle pain and repetitive strain injuries. Massage relieves stress, relaxes tense muscles and supports better posture, contributing to physical and mental health.", "La salud ocupacional es esencial para el bienestar del equipo y para prevenir el estrés, los dolores musculares y las lesiones por esfuerzo repetitivo. Los masajes alivian el estrés, relajan los músculos tensos y favorecen una mejor postura, contribuyendo a la salud física y mental."],
+  "Mesmo sem uma legislação que exija a oferta de massagens, investir em saúde e bem-estar é uma estratégia eficaz para um ambiente de trabalho saudável e produtivo.": ["Even though no law requires it, investing in health and well-being is an effective strategy for a healthy, productive workplace.", "Aunque ninguna ley lo exija, invertir en salud y bienestar es una estrategia eficaz para un ambiente de trabajo saludable y productivo."],
+  "Pedir orçamento": ["Request a quote", "Pedir presupuesto"],
+  "Agende sua sessão": ["Book your session", "Reserva tu sesión"],
+  "Escolha a massagem ideal para você e marque seu horário pelo WhatsApp.": ["Choose the right massage for you and book your time on WhatsApp.", "Elige el masaje ideal para ti y reserva tu horario por WhatsApp."],
+  "Agendar sessão": ["Book a session", "Reservar sesión"],
+  "Parceiros": ["Partners", "Socios"],
+  "Localização": ["Location", "Ubicación"],
+  "Instagram": ["Instagram", "Instagram"],
+  "Massagens": ["Massages", "Masajes"],
+  "Empresas": ["Business", "Empresas"],
+  "Guia": ["Guide", "Guía"],
+  "Baixar em PDF": ["Download PDF", "Descargar PDF"],
+  "Duração": ["Duration", "Duración"],
+  "Manobras": ["Techniques", "Maniobras"],
+  "Intensidade": ["Intensity", "Intensidad"],
+  "Indicação": ["Recommended for", "Indicación"],
+  "45 a 50 min": ["45 to 50 min", "45 a 50 min"],
+  "Amassamento, deslizamento, toques firmes e suaves": ["Kneading, gliding, firm and gentle strokes", "Amasamiento, deslizamiento, toques firmes y suaves"],
+  "Suave e média": ["Gentle to medium", "Suave y media"],
+  "Movimentos específicos e ritmados que direcionam o fluido pelos vasos linfáticos": ["Specific, rhythmic movements that guide fluid through the lymphatic vessels", "Movimientos específicos y rítmicos que dirigen el fluido por los vasos linfáticos"],
+  "Período menstrual, retenção de líquidos, pós-operatório ou como parte de um programa de bem-estar": ["Menstrual period, fluid retention, post-surgery or as part of a wellness programme", "Período menstrual, retención de líquidos, postoperatorio o como parte de un programa de bienestar"],
+  "Amassamento, deslizamento e percussão": ["Kneading, gliding and percussion", "Amasamiento, deslizamiento y percusión"],
+  "Guia exclusivo · Terapias manuais ·": ["Exclusive guide · Manual therapies ·", "Guía exclusiva · Terapias manuales ·"],
+
   // ----- selos giratórios -----
   "Estética avançada · Terapias manuais ·": ["Advanced aesthetics · Manual therapies ·", "Estética avanzada · Terapias manuales ·"],
   "Sua autoestima em primeiro lugar ·": ["Your self-esteem comes first ·", "Tu autoestima es lo primero ·"],
@@ -242,6 +332,8 @@ const WA = {
   "gostaria de mais informações sobre ser paciente modelo de Harmonização Facial": ["I'd like more information about being a model patient for facial harmonisation", "me gustaría más información sobre ser paciente modelo de armonización facial"],
   "gostaria de mais informações sobre ser paciente modelo de Remodelação Glútea": ["I'd like more information about being a model patient for glute reshaping", "me gustaría más información sobre ser paciente modelo de remodelación glútea"],
   "tudo bem?": ["how are you?", "¿qué tal?"],
+  "gostaria de agendar uma sessão de terapia manual": ["I'd like to book a manual therapy session", "me gustaría reservar una sesión de terapia manual"],
+  "gostaria de um orçamento de massagem para minha empresa": ["I'd like a quote for massage at my company", "me gustaría un presupuesto de masajes para mi empresa"],
 };
 const WA_PT_PADRAO = "Olá Dra. Kiss, tudo bem? Gostaria de agendar uma consulta!";
 const OLA = { pt: "Olá Kiss, ", en: "Hi Kiss, ", es: "Hola Kiss, " };
@@ -270,13 +362,15 @@ const ATTR = {
   "Agendar harmonização facial": ["Book facial harmonisation", "Reservar armonización facial"],
   "Agendar harmonização corporal": ["Book body harmonisation", "Reservar armonización corporal"],
   "Idioma": ["Language", "Idioma"],
+  "Terapias manuais | Dra. Kiss Cunha": ["Manual therapies | Dra. Kiss Cunha", "Terapias manuales | Dra. Kiss Cunha"],
+  "Guia exclusivo de terapias manuais da Dra. Kiss Cunha.": ["Dra. Kiss Cunha's exclusive guide to manual therapies.", "Guía exclusiva de terapias manuales de la Dra. Kiss Cunha."],
 };
 
 (() => {
   const IDIOMAS = ["pt", "en", "es"];
   const idx = { en: 0, es: 1 };
   const norm = (s) => s.replace(/\s+/g, " ").trim();
-  const ALVOS = "title,h1,h2,h3,h4,p,li,summary,figcaption,a,span,small,strong,b,button";
+  const ALVOS = "title,h1,h2,h3,h4,p,li,summary,figcaption,a,span,small,strong,b,button,dt,dd,blockquote";
   const INLINE = new Set(["EM", "B", "STRONG", "BR", "I"]);
 
   // guarda o português original de cada ponto traduzível, uma única vez
@@ -334,6 +428,7 @@ const ATTR = {
     const url = new URL(location.href);
     if (lang === "pt") url.searchParams.delete("lang"); else url.searchParams.set("lang", lang);
     history.replaceState(null, "", url);
+    dispatchEvent(new Event("resize")); // realinha a hero ao novo tamanho do título
   }
 
   document.querySelectorAll(".idioma button").forEach((b) => b.addEventListener("click", () => aplica(b.dataset.lang)));

@@ -35,6 +35,9 @@
   <!-- TOPO -->
   <header class="lk-topo">
     <img class="lk-topo__foto" src="img/lista/topo.webp" width="1100" height="1650" alt="Retrato da Dra. Kiss Cunha em preto e branco">
+    <div class="idioma lk-idioma" role="group" aria-label="Idioma">
+      <button type="button" data-lang="pt" aria-pressed="true">PT</button><button type="button" data-lang="en" aria-pressed="false">EN</button><button type="button" data-lang="es" aria-pressed="false">ES</button>
+    </div>
     <div class="lk-topo__txt">
       <div class="selo lk-selo" aria-hidden="true">
         <svg class="selo__txt" viewBox="0 0 120 120"><defs><path id="circ" d="M60 60m-46 0a46 46 0 1 1 92 0a46 46 0 1 1-92 0"/></defs>
@@ -162,15 +165,7 @@
 
 </main>
 
-<script>
-  // Cada link abre o WhatsApp com a mensagem do seu data-wa
-  const WHATSAPP = "5511914801043";
-  document.querySelectorAll("[data-wa]").forEach((a) => {
-    a.href = `https://wa.me/${WHATSAPP}?text=${encodeURIComponent("Olá Kiss, " + a.dataset.wa)}`;
-    a.target = "_blank";
-    a.rel = "noopener";
-  });
-  document.getElementById("ano").textContent = new Date().getFullYear();
-</script>
+<script src="js/i18n.js"></script>
+<script>document.getElementById("ano").textContent = new Date().getFullYear();</script>
 </body>
 </html>

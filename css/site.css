@@ -355,6 +355,15 @@ h1 em,h2 em,.frase em{font-style:italic;color:var(--ouro)}
   .selo{width:150px;height:150px}
 }
 
+/* seletor de idioma */
+.idioma{display:inline-flex;gap:2px;padding:4px;border-radius:999px;background:rgba(18,18,19,.4);border:1px solid var(--glass-borda);
+  -webkit-backdrop-filter:var(--blur);backdrop-filter:var(--blur);box-shadow:var(--glass-brilho)}
+.idioma button{appearance:none;border:0;cursor:pointer;min-width:42px;padding:8px 12px;border-radius:999px;background:none;
+  font:500 11px/1 var(--corpo);letter-spacing:.16em;color:var(--cinza);transition:background .25s,color .25s}
+.idioma button:hover{color:var(--off)}
+.idioma button[aria-pressed="true"]{color:#1B1509;background:linear-gradient(135deg,rgba(246,228,186,.9),rgba(191,162,111,.8));box-shadow:inset 0 1px 0 rgba(255,255,255,.6)}
+.hero__idioma{position:absolute;z-index:6;right:var(--gut);bottom:clamp(56px,12vh,130px)}
+
 /* ---------- RESPONSIVO ---------- */
 @media (max-width:1100px){
   .menu{gap:22px}
@@ -391,6 +400,7 @@ h1 em,h2 em,.frase em{font-style:italic;color:var(--ouro)}
   .tecnicas{border-radius:22px}
   .hero__esq,.hero__dir{position:relative;left:auto;right:auto;bottom:auto;max-width:none;width:auto}
   .hero__esq{text-align:center}
+  .hero__idioma{position:relative;right:auto;bottom:auto;display:flex;width:max-content;margin:28px auto 0}
   .hero__esq h1{max-width:13em;margin-left:auto;margin-right:auto}
   .hero__dir{margin-top:40px;padding-top:28px;border-top:1px solid var(--linha-2)}
   .hero__wa{justify-content:flex-start}

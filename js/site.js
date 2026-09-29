@@ -1,12 +1,4 @@
-// Todos os botões de agendamento apontam para o mesmo WhatsApp
-const WHATSAPP = "5511914801043";
-const MENSAGEM = "Olá Dra. Kiss, tudo bem? Gostaria de agendar uma consulta!";
-const waUrl = `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(MENSAGEM)}`;
-document.querySelectorAll("[data-wa]").forEach((a) => {
-  a.href = waUrl;
-  a.target = "_blank";
-  a.rel = "noopener";
-});
+// Os links de WhatsApp ([data-wa]) são montados em i18n.js, na língua escolhida
 
 // Menu: fundo ao rolar, drawer no celular
 const nav = document.getElementById("nav");

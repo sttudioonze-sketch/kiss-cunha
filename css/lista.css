@@ -106,3 +106,6 @@
   .destaque h2{font-size:36px}
   .links strong{font-size:19px}
 }
+
+/* seletor de idioma no topo da foto */
+.lk-idioma{position:absolute;top:14px;right:14px;z-index:3}

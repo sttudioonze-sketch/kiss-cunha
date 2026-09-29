@@ -242,10 +242,15 @@ h1 em,h2 em,.frase em{font-style:italic;color:var(--ouro)}
 
 /* rodapé */
 .rodape{border-top:1px solid var(--linha-2);background:var(--preto-2)}
-.rodape__in{max-width:calc(var(--max) + 2*var(--gut));margin:auto;padding:56px var(--gut) 40px;display:grid;grid-template-columns:2fr 1fr 1fr;gap:40px}
-.rodape__marca p{margin-top:22px;font-size:13px;color:var(--txt)}
-.rodape__col{display:flex;flex-direction:column;gap:8px;font-size:14px;color:var(--cinza)}
-.rodape__col .rotulo{margin:0 0 8px}
+.rodape__in{max-width:calc(var(--max) + 2*var(--gut));margin:auto;padding:60px var(--gut) 44px;display:flex;flex-direction:column;align-items:center;gap:30px;text-align:center}
+.rodape .marca{flex-direction:column;align-items:center;gap:14px;text-align:center}
+.rodape .marca__k{width:58px;height:58px}
+.rodape .marca__nome{display:block;font-size:22px}
+.rodape .marca__nome small{display:block}
+.rodape__marca p{margin-top:16px;font-size:13px;color:var(--txt)}
+.rodape__col{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:8px 22px;font-size:14px;color:var(--cinza);padding-top:24px;border-top:1px solid var(--linha-2);width:min(760px,100%)}
+.rodape__col+.rodape__col{padding-top:0;border-top:0;margin-top:-14px}
+.rodape__col .rotulo{flex-basis:100%;margin:0 0 4px}
 .rodape__col a:hover{color:var(--ouro)}
 .rodape__cred{margin:0;text-align:center;padding:18px var(--gut);border-top:1px solid var(--linha-2);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--txt)}
 .rodape__cred a{color:var(--ouro)}
@@ -461,8 +466,6 @@ h1 em,h2 em,.frase em{font-style:italic;color:var(--ouro)}
   .faq__r--duas{grid-template-columns:1fr}
   .contato__in{grid-template-columns:1fr}
   .contato__lista{padding:30px 0 0;border-left:0;border-top:1px solid var(--linha-2)}
-  .rodape__in{grid-template-columns:1fr 1fr}
-  .rodape__marca{grid-column:1/-1}
 }
 @media (min-width:600px) and (max-width:900px){
   .procs__grade{max-width:none}
@@ -471,6 +474,8 @@ h1 em,h2 em,.frase em{font-style:italic;color:var(--ouro)}
   .card__txt{padding:28px 26px 26px}
 }
 @media (max-width:560px){
+  .rodape__col{flex-direction:column;gap:8px}
+  .rodape__col+.rodape__col{margin-top:0;padding-top:20px;border-top:1px solid var(--linha-2)}
   .bento{grid-template-columns:1fr;gap:14px}
   .rec,.rec--destaque{grid-column:auto}
   .rec{padding:26px 22px}
@@ -480,10 +485,6 @@ h1 em,h2 em,.frase em{font-style:italic;color:var(--ouro)}
   .marca__nome{display:none}
   .marca__k{width:40px;height:40px}
   .nav__in{padding:6px 6px 6px 8px}
-  .rodape .marca__nome{display:block}
-  .rodape__in{text-align:center;justify-items:center}
-  .rodape .marca{justify-content:center}
-  .rodape__col{align-items:center}
   .hero__nome{font-size:33vw}
   .pilares__lista{grid-template-columns:1fr}
   .pilares__lista li{border-left:0!important;padding:22px 20px}
@@ -493,7 +494,6 @@ h1 em,h2 em,.frase em{font-style:italic;color:var(--ouro)}
   .faq summary{gap:14px}
   .faq__r{padding-left:0}
   .frase{padding:90px var(--gut)}
-  .rodape__in{grid-template-columns:1fr}
   .moldura::before{transform:translate(10px,10px)}
   .contato .btn-grande,.hero__esq .pill{width:100%;justify-content:center;letter-spacing:.16em;padding-left:18px;padding-right:18px}
   .contato__in{padding:32px 20px}

@@ -45,6 +45,9 @@
 .msg--sem-foto .msg__txt{background:linear-gradient(145deg,rgba(191,162,111,.13),rgba(255,255,255,.04) 45%);border-color:rgba(191,162,111,.3)}
 .msg__n{position:absolute;top:30px;right:32px;font:400 12px var(--corpo);letter-spacing:.2em;color:rgba(191,162,111,.75)}
 .msg h3{font:500 clamp(30px,2.6vw,38px)/1.05 var(--display);color:var(--off);margin:0 0 16px;padding-right:40px}
+.msg h3 em{font-style:italic;background:linear-gradient(100deg,#BFA26F 38%,#F6E7C2 50%,#BFA26F 62%);background-size:260% 100%;background-position:100% 0;
+  -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;padding:0 .08em .1em 0}
+@media (prefers-reduced-motion:no-preference){.msg.visto h3 em{animation:reluz 1.8s ease .4s both}}
 .msg__txt>p{color:var(--txt);font-size:15.5px}
 .msg__txt b{color:var(--off)}
 .nota{font-size:14px!important;font-style:italic;padding-top:14px;border-top:1px solid rgba(255,255,255,.07)}

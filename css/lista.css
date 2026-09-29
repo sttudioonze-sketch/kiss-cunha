@@ -90,13 +90,7 @@
 .lk-fim__frase{position:absolute;z-index:2;left:0;right:0;bottom:26px;margin:0;padding:0 22px;text-align:center;font:500 38px/1.05 var(--display)}
 
 /* rodapé igual ao da home, em coluna */
-.lista .rodape{border-top:1px solid rgba(255,255,255,.06)}
-.lista .rodape__in{grid-template-columns:1fr;gap:28px;padding:34px 24px 28px;text-align:center;justify-items:center}
-.lista .rodape .marca{flex-direction:column;justify-content:center;align-items:center;gap:14px;text-align:center}
-.lista .rodape .marca__k{width:52px;height:52px}
-.lista .rodape .marca__nome{display:block}
-.lista .rodape__col{align-items:center}
-.lista .rodape__marca p{margin-top:16px}
+.lista .rodape__in{padding:40px 24px 32px}
 
 @media (max-width:360px){
   .lk-titulo{font-size:34px}

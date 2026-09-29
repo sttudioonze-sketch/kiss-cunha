@@ -312,6 +312,15 @@ const T = {
   "Amassamento, deslizamento e percussão": ["Kneading, gliding and percussion", "Amasamiento, deslizamiento y percusión"],
   "Guia exclusivo · Terapias manuais ·": ["Exclusive guide · Manual therapies ·", "Guía exclusiva · Terapias manuales ·"],
 
+  "Massagem <em>relaxante</em>": ["<em>Relaxing</em> massage", "Masaje <em>relajante</em>"],
+  "Drenagem <em>linfática</em>": ["<em>Lymphatic</em> drainage", "Drenaje <em>linfático</em>"],
+  "Dreno <em>detox ou modeladora</em>": ["<em>Detox or sculpting</em> drainage", "Drenaje <em>detox o modelador</em>"],
+  "Massagem para a <em>terceira idade</em>": ["Massage for <em>seniors</em>", "Masaje para la <em>tercera edad</em>"],
+  "Massagem <em>desportiva</em>": ["<em>Sports</em> massage", "Masaje <em>deportivo</em>"],
+  "Massagem em <em>gestantes</em>": ["<em>Prenatal</em> massage", "Masaje para <em>embarazadas</em>"],
+  "Massagem <em>bronzeadora</em>": ["<em>Tanning</em> massage", "Masaje <em>bronceador</em>"],
+  "Pós-operatório de <em>cirurgias estéticas</em>": ["Aftercare for <em>aesthetic surgery</em>", "Postoperatorio de <em>cirugías estéticas</em>"],
+  "Um dia especial para <em>clientes e colaboradores</em>": ["A special day for <em>clients and employees</em>", "Un día especial para <em>clientes y colaboradores</em>"],
   // ----- selos giratórios -----
   "Estética avançada · Terapias manuais ·": ["Advanced aesthetics · Manual therapies ·", "Estética avanzada · Terapias manuales ·"],
   "Sua autoestima em primeiro lugar ·": ["Your self-esteem comes first ·", "Tu autoestima es lo primero ·"],

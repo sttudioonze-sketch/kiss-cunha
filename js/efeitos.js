@@ -7,7 +7,7 @@
     ".pilares__lista li", ".sobre__txt", ".sobre__foto", ".cab", ".card", ".rec", ".recursos__cta",
     ".frase > *", ".duvidas__cab", ".faq details", ".contato__in", ".rodape__in > *",
     ".lk-bloco > .kicker", ".lk-titulo", ".lk-apoio", ".agenda__mes", ".agenda > ul > li",
-    ".destaque", ".lk-grupo", ".links li", ".lk-fim__frase",
+    ".destaque", ".lk-grupo", ".links li", ".lk-fim__frase", ".gd-pag", ".gd-fim > *",
   ].join(",");
   const blocos = [...document.querySelectorAll(GRUPOS)];
   if (!calmo && "IntersectionObserver" in window) {

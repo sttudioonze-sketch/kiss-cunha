@@ -1,0 +1,30 @@
+/* Guia de terapias manuais: página reservada, leitura em coluna */
+.gd{max-width:560px;margin:0 auto;padding:0 16px 40px}
+.gd-topo{text-align:center;padding:56px 8px 36px}
+.gd-topo__k{width:52px;height:52px;color:var(--ouro);margin-bottom:18px}
+.gd-topo .kicker{margin-bottom:10px}
+.gd-titulo{font:500 clamp(48px,13vw,72px)/1 var(--display);color:var(--off);margin:0}
+.gd-titulo em,.gd-fim__frase em{font-style:italic;color:var(--ouro)}
+.gd-sub{max-width:28em;margin:18px auto 28px;color:var(--txt);font-size:15.5px}
+.gd-acoes{display:flex;flex-wrap:wrap;justify-content:center;gap:12px}
+.gd-acoes a{justify-content:center}
+.gd-acoes svg,.gd-fim svg{width:18px;height:18px}
+
+.gd-paginas{display:grid;gap:18px}
+.gd-pag{margin:0;border-radius:22px;overflow:hidden;border:1px solid var(--glass-borda);background:#fff;
+  box-shadow:0 30px 70px -30px rgba(0,0,0,.85),0 0 0 6px rgba(255,255,255,.03)}
+.gd-pag img{width:100%;height:auto;aspect-ratio:9/16}
+
+.gd-fim{text-align:center;padding:56px 8px 20px}
+.gd-fim__frase{font:500 36px/1.1 var(--display);color:var(--off);margin:0 0 24px}
+.gd-fim .btn-grande{width:100%;max-width:380px;justify-content:center}
+.gd-link{display:inline-block;margin-top:18px;font-size:14px;color:var(--cinza);border-bottom:1px solid var(--linha)}
+.gd-link:hover{color:var(--ouro)}
+.gd-cred{margin:36px 0 0;padding-top:18px;border-top:1px solid rgba(255,255,255,.08);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--txt)}
+.gd-cred a{color:var(--ouro)}
+
+@media (prefers-reduced-motion:no-preference){
+  .gd-topo>*{animation:sobe-desfoca 1s cubic-bezier(.2,.7,.2,1) both}
+  .gd-topo>*:nth-child(2){animation-delay:.1s}.gd-topo>*:nth-child(3){animation-delay:.2s}
+  .gd-topo>*:nth-child(4){animation-delay:.35s}.gd-topo>*:nth-child(5){animation-delay:.5s}
+}

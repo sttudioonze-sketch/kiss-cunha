@@ -36,7 +36,11 @@
   <header class="lk-topo">
     <img class="lk-topo__foto" src="img/lista/topo.webp" width="1100" height="1650" alt="Retrato da Dra. Kiss Cunha em preto e branco">
     <div class="lk-topo__txt">
-      <svg class="lk-topo__k"><use href="#k"/></svg>
+      <div class="selo lk-selo" aria-hidden="true">
+        <svg class="selo__txt" viewBox="0 0 120 120"><defs><path id="circ" d="M60 60m-46 0a46 46 0 1 1 92 0a46 46 0 1 1-92 0"/></defs>
+          <text><textPath href="#circ">Estética avançada · Terapias manuais · </textPath></text></svg>
+        <svg class="selo__k"><use href="#k"/></svg>
+      </div>
       <h1 class="lk-nome"><span>Kiss</span><span>Cunha</span></h1>
       <p class="lk-topo__sub">Estética avançada &amp; terapias manuais</p>
       <a class="btn-linha btn-ouro lk-cta" href="#" data-wa="gostaria de agendar uma consulta"><svg><use href="#wa"/></svg>Agendar pelo WhatsApp</a>
@@ -88,7 +92,7 @@
   <section class="lk-bloco" aria-labelledby="t-curso">
     <p class="kicker">Curso</p>
     <article class="destaque">
-      <img src="img/lista/curso.webp" width="800" height="1000" loading="lazy" alt="Dra. Kiss Cunha, curso de massoterapia">
+      <img src="img/lista/curso.webp" width="700" height="1050" loading="lazy" alt="Dra. Kiss Cunha, curso de massoterapia">
       <div class="destaque__txt">
         <span class="destaque__selo">Curso prático · poucas vagas</span>
         <h2 id="t-curso">Massoterapia <em>para iniciantes</em></h2>

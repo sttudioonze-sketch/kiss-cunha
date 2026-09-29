@@ -1,0 +1,11 @@
+{
+  "name": "Dra. Kiss Cunha",
+  "short_name": "Kiss Cunha",
+  "icons": [
+    { "src": "img/icones/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "img/icones/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "theme_color": "#121213",
+  "background_color": "#121213",
+  "display": "standalone"
+}

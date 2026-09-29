@@ -7,7 +7,7 @@
     ".pilares__lista li", ".sobre__txt", ".sobre__foto", ".cab", ".card", ".rec", ".recursos__cta",
     ".frase > *", ".duvidas__cab", ".faq details", ".contato__in", ".rodape__in > *",
     ".lk-bloco > .kicker", ".lk-titulo", ".lk-apoio", ".agenda__mes", ".agenda > ul > li",
-    ".destaque", ".lk-grupo", ".links li", ".lk-fim__frase", ".gd-pag", ".gd-fim > *",
+    ".destaque", ".lk-grupo", ".links li", ".lk-fim__frase", ".msg", ".historia__txt", ".historia__foto", ".thai__txt", ".thai__foto", ".empresas__txt", ".empresas__foto", ".parceiros",
   ].join(",");
   const blocos = [...document.querySelectorAll(GRUPOS)];
   if (!calmo && "IntersectionObserver" in window) {
@@ -29,7 +29,7 @@
   }
 
   // ---------- luz que acompanha o cursor nos cards de vidro ----------
-  const LUZ = ".card, .rec, .links a, .pilares__lista li, .agenda, .destaque, .contato__in, .faq details";
+  const LUZ = ".card, .rec, .msg__txt, .links a, .pilares__lista li, .agenda, .destaque, .contato__in, .faq details";
   if (matchMedia("(hover: hover)").matches) {
     document.querySelectorAll(LUZ).forEach((el) => {
       el.classList.add("luz");

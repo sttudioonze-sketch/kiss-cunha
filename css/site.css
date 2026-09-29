@@ -236,6 +236,8 @@ h1 em,h2 em,.frase em{font-style:italic;color:var(--ouro)}
 .contato__lista a{font-size:17px;color:var(--off);border-bottom:1px solid transparent;transition:border-color .2s}
 .contato__lista a:hover{border-color:var(--ouro)}
 .contato__selo{width:140px;height:140px}
+.contato__in>*{min-width:0}
+.contato__lista a{overflow-wrap:anywhere}
 
 /* rodapé */
 .rodape{border-top:1px solid var(--linha-2);background:var(--preto-2)}
@@ -431,7 +433,7 @@ h1 em,h2 em,.frase em{font-style:italic;color:var(--ouro)}
   .hero__fundo,.hero__foto{height:72svh;top:92px;bottom:auto}
   .hero::after{inset:calc(92px + 40svh) 0 0;height:auto;background:linear-gradient(to bottom,transparent,rgba(18,18,19,.85) 20svh,var(--preto) 32svh)}
   .hero__nome{top:108px;font-size:32vw;gap:.28em}
-  .hero__selo{width:88px;height:88px;left:72%;top:44%}
+  .hero__selo{width:88px;height:88px;left:auto;right:calc((100% - 100vw) / 2 + 14px);top:44%}
   .hero__selo .selo__k{width:30px;height:30px}
   .tecnicas{border-radius:22px}
   .hero__esq,.hero__dir{position:relative;left:auto;right:auto;bottom:auto;max-width:none;width:auto}
@@ -493,4 +495,8 @@ h1 em,h2 em,.frase em{font-style:italic;color:var(--ouro)}
   .rodape__in{grid-template-columns:1fr}
   .moldura::before{transform:translate(10px,10px)}
   .contato .btn-grande,.hero__esq .pill{width:100%;justify-content:center;letter-spacing:.16em;padding-left:18px;padding-right:18px}
+  .contato__in{padding:32px 20px}
+}
+@media (max-width:380px){
+  .contato .btn-grande{white-space:normal;text-align:center;letter-spacing:.12em}
 }

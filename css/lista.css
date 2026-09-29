@@ -106,3 +106,8 @@
 
 /* seletor de idioma no topo da foto */
 .lk-idioma{position:absolute;top:14px;right:14px;z-index:3}
+
+/* telas bem estreitas */
+.links li{min-width:0}
+.links strong{overflow-wrap:anywhere}
+@media (max-width:360px){.links img{width:60px;height:80px}.links a{gap:12px;padding-right:14px}}

@@ -318,12 +318,17 @@ h1 em,h2 em,.frase em{font-style:italic;color:var(--ouro)}
 .wa-flutua:hover{background:rgba(191,162,111,.85);color:var(--preto)}
 
 /* botão de agendamento: vidro dourado */
-.btn-ouro{border-radius:999px;color:#F6E8C8;border:1px solid rgba(233,211,161,.5);
-  background:linear-gradient(135deg,rgba(233,211,161,.3),rgba(191,162,111,.12) 55%,rgba(191,162,111,.24));
-  -webkit-backdrop-filter:var(--blur);backdrop-filter:var(--blur);
-  box-shadow:inset 0 1px 0 rgba(255,255,255,.28),inset 0 -1px 0 rgba(191,162,111,.25),0 10px 30px -12px rgba(191,162,111,.55)}
-.btn-ouro:hover{color:#fff;border-color:rgba(241,223,179,.8);background:linear-gradient(135deg,rgba(233,211,161,.48),rgba(191,162,111,.28))}
-.btn-ouro .estrela,.btn-ouro:hover .estrela{color:#F1DFB3}
+.btn-ouro{position:relative;overflow:hidden;isolation:isolate;border-radius:999px;color:#1B1509;font-weight:500;
+  border:1px solid rgba(255,244,214,.7);
+  background:linear-gradient(135deg,rgba(246,228,186,.82) 0%,rgba(214,186,132,.66) 40%,rgba(191,162,111,.58) 62%,rgba(236,212,160,.76) 100%);
+  -webkit-backdrop-filter:blur(14px) saturate(160%);backdrop-filter:blur(14px) saturate(160%);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.65),inset 0 -2px 8px rgba(120,90,40,.22),0 12px 32px -12px rgba(191,162,111,.65);
+  transition:filter .25s,transform .25s,box-shadow .25s}
+.btn-ouro::after{content:"";position:absolute;inset:0;z-index:-1;border-radius:inherit;pointer-events:none;
+  background:linear-gradient(110deg,transparent 30%,rgba(255,255,255,.55) 48%,transparent 62%);transform:translateX(-120%);transition:transform .9s ease}
+.btn-ouro:hover{color:#1B1509;filter:brightness(1.06);transform:translateY(-1px);box-shadow:inset 0 1px 0 rgba(255,255,255,.75),inset 0 -2px 8px rgba(120,90,40,.22),0 16px 36px -12px rgba(191,162,111,.8)}
+.btn-ouro:hover::after{transform:translateX(120%)}
+.btn-ouro .estrela,.btn-ouro:hover .estrela{color:#1B1509}
 .btn-grande{padding:18px 28px;white-space:nowrap}
 
 /* ---------- TELAS GRANDES ---------- */

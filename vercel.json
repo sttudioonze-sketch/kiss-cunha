@@ -12,13 +12,13 @@
       "permanent": true
     },
     {
-      "source": "/guia-terapias-s8estc",
+      "source": "/guia-terapias-s8estc/?",
       "destination": "/terapias/",
       "permanent": true
     },
     {
-      "source": "/guia-terapias-s8estc/:path*",
-      "destination": "/terapias/:path*",
+      "source": "/guia-terapias-s8estc/(.+)",
+      "destination": "/terapias/$1",
       "permanent": true
     }
   ],

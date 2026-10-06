@@ -5,7 +5,7 @@ Estado em 29/09/2026. Site estático (HTML, CSS e JS, sem build), publicado pelo
 ## Links
 - Site: https://www.kisscunha.com.br/ (Vercel; DNS no Registro.br apontando para ns1/ns2.vercel-dns.com)
 - Lista de links (bio): https://www.kisscunha.com.br/lista
-- Guia secreto de terapias manuais: https://www.kisscunha.com.br/guia-terapias-s8estc/ (fora do menu e do Google, com `noindex`)
+- Guia secreto de terapias manuais: https://www.kisscunha.com.br/terapias/ (fora do menu e do Google, com `noindex`)
 - Qualquer página em outro idioma: acrescente `?lang=en` ou `?lang=es` ao link
 - Cópia reserva no GitHub Pages: https://sttudioonze-sketch.github.io/kiss-cunha/
 - Repositório: https://github.com/sttudioonze-sketch/kiss-cunha (público; o push funciona daqui porque o login está no Keychain)
@@ -15,7 +15,7 @@ Estado em 29/09/2026. Site estático (HTML, CSS e JS, sem build), publicado pelo
 |---|---|
 | `index.html` | Site: hero, diferenciais, sobre, procedimentos, técnicas, frase, FAQ, contato |
 | `lista.html` | Link na bio: agenda, curso, especialidades |
-| `guia-terapias-s8estc/index.html` | Guia de terapias manuais (8 massagens, Thai, empresas) + PDF para baixar |
+| `terapias/index.html` | Guia de terapias manuais (8 massagens, Thai, empresas) + PDF para baixar |
 | `css/site.css` | Base de tudo: paleta, glass, botões dourados, rodapé, efeitos |
 | `css/lista.css`, `css/guia.css` | Ajustes próprios de cada página |
 | `js/site.js` | Menu, FAQ, botão flutuante |

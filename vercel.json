@@ -7,8 +7,18 @@
       "permanent": true
     },
     {
+      "source": "/terapias",
+      "destination": "/terapias/",
+      "permanent": true
+    },
+    {
       "source": "/guia-terapias-s8estc",
-      "destination": "/guia-terapias-s8estc/",
+      "destination": "/terapias/",
+      "permanent": true
+    },
+    {
+      "source": "/guia-terapias-s8estc/:path*",
+      "destination": "/terapias/:path*",
       "permanent": true
     }
   ],
@@ -32,7 +42,7 @@
       ]
     },
     {
-      "source": "/guia-terapias-s8estc/(.*)",
+      "source": "/terapias/(.*)",
       "headers": [
         {
           "key": "X-Robots-Tag",

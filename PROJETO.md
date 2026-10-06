@@ -3,10 +3,11 @@
 Estado em 29/09/2026. Site estático (HTML, CSS e JS, sem build), publicado pelo GitHub Pages.
 
 ## Links
-- Site: https://sttudioonze-sketch.github.io/kiss-cunha/
-- Lista de links (bio): https://sttudioonze-sketch.github.io/kiss-cunha/lista.html
-- Guia secreto de terapias manuais: https://sttudioonze-sketch.github.io/kiss-cunha/guia-terapias-s8estc/ (fora do menu e do Google, com `noindex`)
+- Site: https://www.kisscunha.com.br/ (Vercel; DNS no Registro.br apontando para ns1/ns2.vercel-dns.com)
+- Lista de links (bio): https://www.kisscunha.com.br/lista
+- Guia secreto de terapias manuais: https://www.kisscunha.com.br/guia-terapias-s8estc/ (fora do menu e do Google, com `noindex`)
 - Qualquer página em outro idioma: acrescente `?lang=en` ou `?lang=es` ao link
+- Cópia reserva no GitHub Pages: https://sttudioonze-sketch.github.io/kiss-cunha/
 - Repositório: https://github.com/sttudioonze-sketch/kiss-cunha (público; o push funciona daqui porque o login está no Keychain)
 
 ## Arquivos
@@ -32,7 +33,7 @@ Estado em 29/09/2026. Site estático (HTML, CSS e JS, sem build), publicado pelo
 
 ## Como atualizar
 1. **Texto em português:** se o mesmo texto existir em `js/i18n.js`, atualize a chave lá também. Senão, ele fica em português nas outras línguas.
-2. **Envio:** a cada envio, suba o número `?v=` dos links de CSS/JS nas 3 páginas. O GitHub Pages guarda cache por 10 minutos.
+2. **Envio:** cada push publica sozinho na Vercel. Suba o número `?v=` dos links de CSS/JS nas 3 páginas a cada envio (CSS/JS ficam em cache de 1 ano). Configuração de rotas em `vercel.json`.
 3. **Capas de WhatsApp:** ao trocar uma capa, use um nome de arquivo novo, porque o WhatsApp guarda a prévia antiga.
 4. **Agenda da lista:** edite os itens em `lista.html`, no trecho marcado "Para atualizar a agenda".
 
@@ -42,5 +43,5 @@ Estado em 29/09/2026. Site estático (HTML, CSS e JS, sem build), publicado pelo
 - A Dra. Kiss revisar as descrições das técnicas e os textos do guia (conteúdo de saúde)
 - Revisão do inglês e do espanhol por alguém fluente
 - Instagram (@dra.kisscunha) e endereço em Porto Alegre: já estão no guia; falta decidir se entram no site e na lista
-- Domínio `kisscunha.com.br`: apontar para o GitHub Pages e trocar as URLs de `og:image`
+- Cancelar o Wix (o domínio já saiu de lá em 05/10/2026)
 - Apagar o token do GitHub que ficou exposto no Terminal

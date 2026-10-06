@@ -12,7 +12,7 @@
       "permanent": true
     },
     {
-      "source": "/guia-terapias-s8estc/?",
+      "source": "/guia-terapias-s8estc{/}?",
       "destination": "/terapias/",
       "permanent": true
     },
